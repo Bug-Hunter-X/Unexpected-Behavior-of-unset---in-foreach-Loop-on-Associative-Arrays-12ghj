@@ -1,0 +1,2 @@
+# PHP Unset() in foreach Loop Bug
+This repository demonstrates a subtle bug related to the use of the `unset()` function within a `foreach` loop when iterating over associative arrays in PHP.  The `unset()` function modifies the array in place, causing unexpected key skipping behavior that can lead to incorrect results. The example provided shows the unexpected behaviour and a solution to avoid this error. 
